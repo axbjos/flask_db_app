@@ -29,3 +29,6 @@ def addemployee():
         return emps
     res = db_query()
     return render_template('addemployee.html', result=res, content_type='application/json')
+
+if __name__ == "__main__":
+        app.run(host="0.0.0.0")
