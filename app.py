@@ -3,7 +3,7 @@ import pymysql
 app = Flask(__name__)
 class Database:
     def __init__(self):
-        host = "172.16.132.131"
+        host = "localhost"
         user = "joeaxberg"
         password = "abc123"
         db = "employees"
